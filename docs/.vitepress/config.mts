@@ -14,8 +14,8 @@ export default defineConfig({
       {
         text: 'ourmc 服务器',
         items: [
-          { text: '了解我们', link: '/about' },
-          { text: '加入我们', link: '/join' }
+          { text: '关于本服', link: '/about' },
+          { text: '加入本服', link: '/join' }
         ]
       }
     ],

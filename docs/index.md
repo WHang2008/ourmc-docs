@@ -8,17 +8,17 @@ hero:
   tagline: 你好呀，今天有好好吃饭吗( •̀ ω •́ )✧
   actions:
     - theme: brand
-      text: 了解我们
+      text: 关于本服
       link: /about
     - theme: alt
-      text: 加入我们
+      text: 加入本服
       link: /join
 
 features:
   - title: 服务器环境
-    details: 腐竹非常听话，经常被群友蕨
-  - title: 服务器质量
     details: 大家都是人类
+  - title: 服务器质量
+    details: 堪比土豆
   - title: 加入我们
     details: 联系腐竹：team@our-mc.cn
 ---
