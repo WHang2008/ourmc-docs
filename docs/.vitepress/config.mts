@@ -16,7 +16,8 @@ export default defineConfig({
         items: [
           { text: '关于本服', link: '/about' },
           { text: '加入本服', link: '/join' },
-          { text: '服务器人员档案', link: '/players' }
+          { text: '服务器人员档案', link: '/players' },
+          { text: '最终用户协议', link: '/EULA' }
         ]
       }
     ],
