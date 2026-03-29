@@ -12,10 +12,10 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'ourmc 服务器',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '了解我们', link: '/about' },
+          { text: '加入我们', link: '/join' }
         ]
       }
     ],

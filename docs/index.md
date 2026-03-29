@@ -5,10 +5,10 @@ layout: home
 hero:
   name: "ourmc 服务器"
   text: "探索无边，方块筑梦"
-  tagline: 今天有好好吃饭吗(๑•̀ㅂ•́)و✧
+  tagline: 你好呀，今天有好好吃饭吗( •̀ ω •́ )✧
   actions:
     - theme: brand
-      text: 了解本服
+      text: 了解我们
       link: /about
     - theme: alt
       text: 加入我们
