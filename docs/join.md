@@ -1,49 +1,9 @@
----
-outline: deep
----
+## 📥 加入方式
 
-# Runtime API Examples
+1. 启动 **Minecraft Java 版**，版本选择 `1.21.8`（推荐使用官方启动器或 HMCL、PCL2 等）。
+2. 点击 **多人游戏** → **添加服务器**：
+   - 服务器名称：`OurMC`
+   - 服务器地址：`mc.our-mc.cn`
+3. 加入服务器，开始你的自由生存之旅。
 
-This page demonstrates usage of some of the runtime APIs provided by VitePress.
-
-The main `useData()` API can be used to access site, theme, and page data for the current page. It works in both `.md` and `.vue` files:
-
-```md
-<script setup>
-import { useData } from 'vitepress'
-
-const { theme, page, frontmatter } = useData()
-</script>
-
-## Results
-
-### Theme Data
-<pre>{{ theme }}</pre>
-
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-```
-
-<script setup>
-import { useData } from 'vitepress'
-
-const { site, theme, page, frontmatter } = useData()
-</script>
-
-## Results
-
-### Theme Data
-<pre>{{ theme }}</pre>
-
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-
-## More
-
-Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).
+> 💡 提示：服务器**允许离线模式**，无需正号登录。但请使用**唯一的游戏名**，避免与他人重名造成数据错乱。

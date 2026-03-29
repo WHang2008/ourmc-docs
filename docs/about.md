@@ -1,85 +1,49 @@
-# Markdown Extension Examples
+# 🎮 OurMC 服务器 —— 自由·尊重·活跃的 Java 原版社区
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+> **IP 地址：`mc.our-mc.cn`**  
+> **版本：Minecraft Java 版 1.21.8（原版即可）**  
+> **模式：原版生存 + 丰富拓展内容**  
+> **登录方式：支持离线登录（也欢迎正版玩家）**
 
-## Syntax Highlighting
+---
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
+## 🌟 服务器特色
 
-**Input**
+### 🧱 原版为核心
+- 完全基于 **Java 原版 1.21.8**，保留最纯粹的生存体验。
+- 额外添加**轻度增强内容**（如传送、商店），不破坏原版平衡，但可以让多人游戏更方便。
 
-````md
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-````
+### 👑 尊重玩家的腐竹与管理
+- 腐竹亲自维护服务器，**珍视每一位玩家的劳动成果** —— 绝不随意回档、清空数据或滥用权限。
+- 所有规则公开透明，纠纷处理公平公正，**你的建筑、物资和时间都会得到尊重**。
 
-**Output**
+### 👥 假期活跃的社区氛围
+- **寒暑假、小长假期间玩家活跃度高涨**，不怕找不到人一起挖矿、打龙、搞基建。
+- 新老玩家互帮互助，社区氛围友好包容，无论你是红石大佬还是萌新，都能找到属于自己的位置。
 
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
+### 🎲 定期小游戏，拒绝枯燥
+- 定期还有小游戏，快叫上伙伴一起来玩吧。
+- 小游戏不影响主世界存档，**纯娱乐、有彩蛋**，胜者有时还能获得纪念称号或小礼品。
 
-## Custom Containers
+---
 
-**Input**
+## 📥 加入方式
 
-```md
-::: info
-This is an info box.
-:::
+1. 启动 **Minecraft Java 版**，版本选择 `1.21.8`（推荐使用官方启动器或 HMCL、PCL2 等）。
+2. 点击 **多人游戏** → **添加服务器**：
+   - 服务器名称：`OurMC`
+   - 服务器地址：`mc.our-mc.cn`
+3. 加入服务器，开始你的自由生存之旅。
 
-::: tip
-This is a tip.
-:::
+> 💡 提示：服务器**允许离线模式**，无需正号登录。但请使用**唯一的游戏名**，避免与他人重名造成数据错乱。
 
-::: warning
-This is a warning.
-:::
+---
 
-::: danger
-This is a dangerous warning.
-:::
+## 🗨️ 联系我们 & 动态
 
-::: details
-This is a details block.
-:::
-```
+ - QQ交流群：[865332228](https://qm.qq.com/q/1aQna5t2CA)
 
-**Output**
+---
 
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-
-## More
-
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
+**OurMC —— 探索无边，方块筑梦.**  
+**现在加入，与假期归来的伙伴们一起，写下属于你的传奇章节。**
