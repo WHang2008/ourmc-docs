@@ -20,12 +20,11 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '首页', link: '/' }
+      { text: '关于本服', link: '/about' }
     ],
 
     sidebar: [
       {
-        text: 'ourmc 服务器',
         items: [
           { text: '关于本服', link: '/about' },
           { text: '加入本服', link: '/join' },
