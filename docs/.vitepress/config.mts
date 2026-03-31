@@ -6,7 +6,6 @@ export default defineConfig({
   title: "ourmc 服务器",
   description: "探索无边，方块筑梦",
 
-  // 将 AdSense 验证脚本注入到 HTML 的 <head> 中
   head: [
     [
       'script',
@@ -23,7 +22,7 @@ export default defineConfig({
     nav: [
       { text: '关于本服', link: '/about' },
       { text: '加入本服', link: '/join' },
-      { text: '法律信息', link: '/EULA'}
+      { text: '*法律信息*', link: '/EULA'}
     ],
 
     sidebar: [
@@ -31,7 +30,7 @@ export default defineConfig({
         text: '关于本服',
         link: '/about',
         items: [
-          { text: '服务器神人档案', link: '/players' }
+          { text: '服务器神人档案', link: '/about/players' }
         ]
       },
       {
@@ -41,7 +40,7 @@ export default defineConfig({
         ]
       },
       {
-        text: '法律信息',
+        text: '*法律信息*',
         items: [
           { text: '最终用户协议', link: '/EULA' }
         ]

@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "ourmc 服务器"
   text: "探索无边，方块筑梦"
-  tagline: 你好呀，今天有好好吃饭吗( •̀ ω •́ )✧
+  tagline: Ciallo ～ (∠·ω< )⌒★
   actions:
     - theme: brand
       text: 关于本服
@@ -16,9 +16,9 @@ hero:
 
 features:
   - title: 服务器环境
-    details: 大家都是人类
+    details: 大家都很好的哦
   - title: 服务器质量
-    details: 堪比土豆
+    details: 不是土豆（
   - title: 加入我们
     details: 联系腐竹：team@our-mc.cn
 ---
