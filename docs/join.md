@@ -8,4 +8,4 @@
 
 > 💡 提示：服务器**允许离线模式**，无需正号登录。但请使用**唯一的游戏名**，避免与他人重名造成数据错乱。
 
-<video src="/public/2026-04-01 20-51-25.mp4" controls style="width: 100%; height: auto;"></video>
+<video src="/2026-04-01 20-51-25.mp4" controls style="width: 100%; height: auto;"></video>
