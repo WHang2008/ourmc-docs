@@ -30,7 +30,7 @@ export default defineConfig({
         text: '关于本服',
         link: '/about',
         items: [
-          { text: '服务器神人档案', link: '/about/players' }
+          { text: '服务器人物档案', link: '/about/players' }
         ]
       },
       {
