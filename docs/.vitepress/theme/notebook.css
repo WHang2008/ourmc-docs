@@ -1,0 +1,28 @@
+/* 背景像笔记本纸 */
+:root {
+  --vp-c-bg: #fdfcf7;
+  --vp-c-text: #333;
+  --vp-font-family-base: 'Caveat', 'Patrick Hand', sans-serif;
+}
+
+body {
+  background: repeating-linear-gradient(
+    #fdfcf7,
+    #fdfcf7 28px,
+    #e0e0e0 29px
+  );
+  font-family: var(--vp-font-family-base);
+}
+
+/* 页面边框模拟装订线 */
+.vp-doc {
+  border-left: 6px solid #d33;
+  padding-left: 1rem;
+}
+
+/* 代码块像便利贴 */
+.vp-doc pre {
+  background: #fff9c4;
+  border: 1px solid #f0e68c;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}

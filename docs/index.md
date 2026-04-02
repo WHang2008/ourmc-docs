@@ -5,14 +5,14 @@ layout: home
 hero:
   name: "ourmc 服务器"
   text: "探索无边，方块筑梦"
-  tagline: Ciallo ～ (∠·ω< )⌒★
+  tagline: 
   actions:
     - theme: brand
-      text: 关于本服
-      link: /about
+      text: 什么是ourmc
+      link: /guide/what
     - theme: alt
-      text: 加入本服
-      link: /join
+      text: 快速加入
+      link: /guide/join
 
 features:
   - title: 服务器环境

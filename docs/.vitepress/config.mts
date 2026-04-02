@@ -20,32 +20,27 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '关于本服', link: '/about' },
-      { text: '加入本服', link: '/join' },
-      { text: '*法律信息*', link: '/EULA'}
+      { text: '指南', link: '/guide/what' },
+      { text: 'EULA', link: '/EULA' },
     ],
 
-    sidebar: [
+    sidebar: {
+      '/guide/': [
       {
-        text: '关于本服',
-        link: '/about',
+        text: '简介',
         items: [
-          { text: '服务器人物档案', link: '/about/players' }
+          { text: '什么是ourmc', link: '/guide/what' },
+          { text: '快速加入', link: '/guide/join' },
         ]
       },
       {
-        text: '加入本服',
-        link: '/join',
+        text: '了解更多',
         items: [
+          { text: '服务器人物档案', link: '/guide/players' }
         ]
-      },
-      {
-        text: '*法律信息*',
-        items: [
-          { text: '最终用户协议', link: '/EULA' }
-        ]
-      },
-    ],
+      }
+    ]
+  },
 
     outline: {
       label: '在此页面上'
