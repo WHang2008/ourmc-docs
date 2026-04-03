@@ -1,0 +1,123 @@
+/* --- [1. 主题变量] --------------------------------------------- */
+:root {
+  /* 纸张基础色 */
+  --nb-bg: #fdfcf7;
+  --nb-line: #e0e0e0;
+  --nb-margin: #d33;
+  --nb-text: #333;
+  /* 代码块 (便利贴) */
+  --nb-sticky-bg: #fff9c4;
+  --nb-sticky-border: #f0e68c;
+  /* 动画参数 */
+  --nb-anim-duration: 0.4s;
+}
+
+html.dark {
+  --nb-bg: #1e1e1e;
+  --nb-line: #333;
+  --nb-margin: #5e1a1a;
+  --nb-text: #d4d4d4;
+  --nb-sticky-bg: #2d2d2d;
+  --nb-sticky-border: #444;
+}
+
+/* --- [2. 动画轨道] --------------------------------------------- */
+@keyframes notebookFadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes homeFadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* --- [3. 核心布局适配] ------------------------------------------ */
+/* 确保 VitePress 的文档容器不干扰自定义背景 */
+.VPDoc .container {
+  background-color: transparent !important;
+}
+
+/* --- [4. 笔记本内容区 (.vp-doc)] -------------------------------- */
+/* 仅针对 Markdown 渲染生成的正文区域 */
+.vp-doc {
+  background: repeating-linear-gradient(
+    var(--nb-bg), 
+    var(--nb-bg) 28px, 
+    var(--nb-line) 29px
+  ) !important;
+  
+  border-left: 4px solid var(--nb-margin) !important;
+  padding: 30px !important;
+  color: var(--nb-text) !important;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  
+  /* 绑定切页动画 */
+  animation: notebookFadeIn var(--nb-anim-duration) ease-out forwards;
+}
+
+/* [4.1 代码块细节] */
+.vp-doc pre {
+  background-color: var(--nb-sticky-bg) !important;
+  border: 1px solid var(--nb-sticky-border) !important;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* --- [5. 主页 (VPHome) 适配] ------------------------------------ */
+.VPHome {
+  animation: homeFadeIn 0.8s ease-out forwards;
+}
+
+/* 首页特殊性：当首页调用 vp-doc 类时，重置所有笔记本特有的装饰性样式 */
+.VPHome .vp-doc {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  animation: none !important;
+  padding: 0 !important;
+}
+
+/* --- [7. 搜索弹窗动画优化] ----------------------------------------- */
+
+/* 1. 背景遮罩动画：只管淡入，不要有位移 */
+@keyframes maskFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* 2. 搜索框体动画：负责缩放和位移 */
+@keyframes shellPopUp {
+  from {
+    opacity: 0;
+    transform: scale(0.98) translateY(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* 针对整个搜索组件：只应用背景淡入 */
+.VPLocalSearchBox {
+  /* 确保背景变暗是原地渐变出现 */
+  animation: maskFadeIn 0.2s ease-out forwards;
+  backdrop-filter: blur(4px); /* 可选：增加毛玻璃感 */
+}
+
+/* 针对中间的搜索框：应用弹出动画 */
+.VPLocalSearchBox .shell {
+  /* 加上一点延迟(0.05s)，让背景先暗下来，框再弹出来，更有层次感 */
+  animation: shellPopUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0.05s backwards;
+  
+  /* 适配笔记本主题 */
+  background-color: var(--nb-bg) !important;
+  border: 1px solid var(--nb-line) !important;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2) !important;
+}
+
+/* 调整搜索匹配的高亮色 */
+.VPLocalSearchBox .mark {
+  background-color: var(--nb-margin) !important;
+  color: #fff !important;
+}
