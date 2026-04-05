@@ -17,9 +17,8 @@ hero:
 features:
   - title: 服务器环境
     details: 大家都很好的哦
-  - title: 服务器质量
-    details: 不是土豆（
-  - title: 加入我们
+  - title: 服务器性能
+    details: 高性能服务器，但是优化不好，经常崩溃
+  - title: 招贤纳士
     details: 联系腐竹：team@our-mc.cn
 ---
-

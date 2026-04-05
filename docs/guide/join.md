@@ -9,7 +9,8 @@
 
 ## 社区群组
 建议加入群聊以获取服务器维护公告和最新动态：
-- **QQ 群**：[点击链接加入群聊](https://qm.qq.com/q/49LE4sBQ3m)
+- **QQ 1群**：[点击链接加入群聊](https://qm.qq.com/q/49LE4sBQ3m)
+- **QQ 2群**：[点击链接加入群聊](https://qm.qq.com/q/8hYCAbvnt)
 - **腾讯频道**：[点击链接加入腾讯频道](https://pd.qq.com/s/cvgjafgpl)
 
 ## 入服指南
