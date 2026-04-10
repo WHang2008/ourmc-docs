@@ -23,4 +23,13 @@ features:
     details: 联系腐竹：team@our-mc.cn
 ---
 
-<iframe id="mc-status-owl1-vipi9-top-11101" frameborder="0" width="1000" style="max-width:100%;" scrolling="no" src="https://motd.minebbs.com/iframe?ip=owl1.vipi9.top&port=11101&stype=auto&dark=false"></iframe>
+<div class="custom-block info" style="padding: 0; overflow: hidden;">
+  <iframe 
+    src="https://motd.minebbs.com/iframe?ip=owl1.vipi9.top&port=11101&stype=auto&dark=false"
+    width="100%"
+    height="155"
+    frameborder="0"
+    scrolling="no"
+    style="display: block;">
+  </iframe>
+</div>
