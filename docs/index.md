@@ -22,3 +22,5 @@ features:
   - title: 招贤纳士
     details: 联系腐竹：team@our-mc.cn
 ---
+
+![服务器状态](https://motd.minebbs.com/api/status_img?ip=owl1.vipi9.top&port=11101&stype=auto&theme=simple)
