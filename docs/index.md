@@ -23,4 +23,4 @@ features:
     details: 联系腐竹：team@our-mc.cn
 ---
 
-![服务器状态](https://motd.minebbs.com/api/status_img?ip=owl1.vipi9.top&port=11101&stype=auto&theme=simple)
+<iframe id="mc-status-owl1-vipi9-top-11101" frameborder="0" width="700" style="max-width:100%;" scrolling="no" src="https://motd.minebbs.com/iframe?ip=owl1.vipi9.top&port=11101&stype=auto&dark=false"></iframe>
