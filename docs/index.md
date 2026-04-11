@@ -22,14 +22,3 @@ features:
   - title: 招贤纳士
     details: 联系腐竹：team@our-mc.cn
 ---
-
-<div class="custom-block info" style="padding: 0; overflow: hidden;">
-  <iframe 
-    src="https://motd.minebbs.com/iframe?ip=owl1.vipi9.top&port=11101&stype=auto&dark=false"
-    width="100%"
-    height="155"
-    frameborder="0"
-    scrolling="no"
-    style="display: block;">
-  </iframe>
-</div>
