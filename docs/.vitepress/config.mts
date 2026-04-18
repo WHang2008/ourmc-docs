@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'zh-Hans',
   title: "ourmc 服务器",
-  description: "探索无边，方块筑梦",
+  description: "一个认真维护，原版就能玩的Minecraft服务器",
 
   sitemap: {
     hostname: 'https://our-mc.cn'
