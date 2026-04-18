@@ -22,6 +22,7 @@ export default defineConfig({
     nav: [
       { text: '指南', link: '/guide/what' },
       { text: 'EULA', link: '/EULA' },
+      { text: 'ourmc皮肤站', link: 'https://skin.our-mc.cn' }
     ],
 
     sidebar: {
