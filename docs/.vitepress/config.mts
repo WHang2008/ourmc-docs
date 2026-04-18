@@ -6,6 +6,10 @@ export default defineConfig({
   title: "ourmc 服务器",
   description: "探索无边，方块筑梦",
 
+  sitemap: {
+    hostname: 'https://our-mc.cn'
+  },
+
   head: [
     [
       'script',
