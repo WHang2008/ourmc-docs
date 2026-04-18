@@ -19,8 +19,8 @@
 ### PCL2
 选择你要使用的游戏版本（1.21.8的），点击**版本设置**-**设置**-**服务器**，按照如图填写
 ![PCL2](/PCL2.png)
-> 认证服务器（必填）：`https://skin.our-mc.cn/api/yggdrasil`
-> 注册连接：`https://skin.our-mc.cn/auth/register`
+> 认证服务器（必填）：`https://skin.our-mc.cn/api/yggdrasil`        
+> 注册连接：`https://skin.our-mc.cn/auth/register`          
 填写完成后返回即可，然后就可以登录您在我们皮肤站上注册的账户了！
 ### HMCL
 **账户**-**添加认证服务器（外置登录）**     
