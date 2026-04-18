@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "ourmc 服务器"
   text: "探索无边，方块筑梦"
-  tagline: 
+  tagline: 一个好玩的Minecraft服务器
   actions:
     - theme: brand
       text: 什么是ourmc
